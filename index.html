@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>talk banana</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        :root{
+            --yellow: #fffc00;
+            --border: black;
+        }
+       
+        .header{
+            background-image: linear-gradient(to right, #fffc00,#ffffff);
+            text-align: center;
+            border: 2px solid white;
+            max-width: 600px;
+            margin: 15px auto;
+            font-family: 'Architects Daughter', cursive;
+        }
+        img{
+           max-width: 50px;
+        }
+        h3{
+            background-image: linear-gradient(to right,#ffffff, #fffc00);
+            text-align: center;
+            border: 2px solid white;
+            max-width: 300px;
+            margin: 15px auto;
+            font-family: 'Architects Daughter', cursive;
+        }
+        textarea{
+            border: 2px solid var(--yellow);
+            width:40%;
+            height: 5rem;
+            display: block;
+            margin: auto;
+            font-family: 'Architects Daughter', cursive;
+        }
+        #output{
+            border: 2px solid var(--yellow);
+            width:40%;
+            height: 5rem;
+            display: block;
+            font-family: 'Architects Daughter', cursive;
+        }
+        .container{
+            text-align: center;
+            padding: 10px 10px;
+        }
+        #btn-translate{
+            margin: 5px 5px 30px 5px;
+            background-color: white;
+            color: black;
+            font-family: 'Architects Daughter', cursive;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+    <!-- <img src="images/minion1.gif"> -->
+       <h2>talk bananaaa</h2>
+    </header>
+    
+    <textarea id="text-input"
+    placeholder="Enter text you want to translate"></textarea>
+    <div class="container">
+        <button id="btn-translate"><img src="images/minion1.gif"><br><strong>Translate</strong></button>
+    </div>
+    <h3>minionised!</h3>
+    <textarea id="output"></textarea>
+
+
+    <script src="app.js" type="text/javascript"></script>
+        
+    
+
+</body>
+</html>
